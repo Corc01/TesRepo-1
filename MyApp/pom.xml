@@ -125,10 +125,12 @@
         	<plugin>
                 <groupId>org.jboss.as.plugins</groupId>
                 <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.6.Final</version>
+                <version>7.3.Final</version>
                 <configuration>
-                    <hostname>127.0.0.1</hostname>
+                    <hostname>192.168.195.142</hostname>
                     <port>9990</port>
+                    <name>app1</name>
+                    <password>lerin000</password>
                 </configuration>
             </plugin>
             <plugin>
