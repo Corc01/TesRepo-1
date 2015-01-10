@@ -123,16 +123,12 @@
 	<build>
         <plugins>
         	<plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <version>1.0.2.Final</version>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7.6.Final</version>
                 <configuration>
-<!--                       <hostname>${hostname}</hostname> -->
-<!--                       <port>${port}</port>  -->
-                      <hostname>192.168.195.142</hostname>
-                      <port>9990</port> 
-                      <name>app1</name> 
-                      <password>lerin000</password>
+                    <hostname>127.0.0.1</hostname>
+                    <port>9990</port>
                 </configuration>
             </plugin>
             <plugin>
